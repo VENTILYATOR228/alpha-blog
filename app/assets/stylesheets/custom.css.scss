@@ -44,18 +44,19 @@
 background-color: lightgrey;
 }
 
+
 html,
 body {
   height: 100%;
 }
 
-body {
-  background: lightgrey;
+#page-content {
+  flex: 1 0 auto;
 }
 
-code {
-  color: #665;
-  background: #fff;
-  padding: 0.2rem;
-  border-radius: 0.2rem;
+#sticky-footer {
+  flex-shrink: none;
+}
+body {
+  background: lightgrey;
 }
