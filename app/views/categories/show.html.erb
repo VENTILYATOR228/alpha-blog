@@ -6,7 +6,7 @@
   <% end %>
 </div>
 
-<div class="flickr_pagination">
+<div class="flickr_pagination row justify-content-md-center">
   <%= will_paginate @articles, :container => false %>
 </div>
 
@@ -14,6 +14,6 @@
 
 <%= render 'articles/article' %>
 
-<div class="flickr_pagination">
+<div class="flickr_pagination row justify-content-md-center">
   <%= will_paginate @articles, :container => false %>
 </div>
